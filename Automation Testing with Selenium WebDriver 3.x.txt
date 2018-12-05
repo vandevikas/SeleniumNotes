@@ -62,6 +62,14 @@ Using TestNG
     <version>3.14.0</version>
 </dependency>
 ====================================================================================================================================================
+Both plugins and dependencies are Jar files.
+
+But the difference between them is, most of the work in maven is done using plugins; whereas dependency is just a Jar file which will be added to the classpath while executing the tasks.
+We can say, plugin is a Jar file which executes the task, and dependency is a Jar which provides the class files to execute the task.
+To compile your project maven uses maven-compiler-plugin, to run tests - maven-surefire-plugin and so on.
+====================================================================================================================================================
+====================================================================================================================================================
+
 
 Shortcut to Format Code in Eclipse is Ctrl + Shift + F in Intellij it is Ctrl + Shift + L
 ====================================================================================================================================================
