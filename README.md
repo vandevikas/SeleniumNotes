@@ -1,2 +1,0 @@
-# SeleniumNotes
-All Collected Notes
